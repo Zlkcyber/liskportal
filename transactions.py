@@ -28,7 +28,7 @@ async def send_transactions(private_key, num_transactions):
                         transaction = contract.functions.deposit().build_transaction({
                             'from': from_address,
                             'value': amount_wei,
-                            'gas': 35000,
+                            'gas': 70000,
                             'gasPrice': web3.eth.gas_price, 
                             'nonce': nonce
                         })
