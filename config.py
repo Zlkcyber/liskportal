@@ -1,6 +1,6 @@
 from web3 import Web3
 
-max_gwei = 18
+max_gwei = 30
 num_daily_tx = 75
 RPC_URL = "https://rpc.api.lisk.com"
 RPC_ETH = "https://eth.llamarpc.com"
